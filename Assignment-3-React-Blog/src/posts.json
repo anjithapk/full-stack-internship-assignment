@@ -1,0 +1,51 @@
+
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "description": "Learn the basics of React and how to build your first interactive web application.",
+    "category": "Technology",
+    "author": "Anjitha",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600"
+  },
+  {
+    "id": 2,
+    "title": "The Beauty of Nature",
+    "description": "Explore the beauty of nature and discover why protecting our environment matters.",
+    "category": "Lifestyle",
+    "author": "Anjitha",
+    "image": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=600"
+  },
+  {
+    "id": 3,
+    "title": "Healthy Habits for Students",
+    "description": "Simple daily habits that can improve your productivity and well-being.",
+    "category": "Health",
+    "author": "Anjitha",
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600"
+  },
+  {
+    "id": 4,
+    "title": "Exploring Web Development",
+    "description": "Discover the exciting world of web development and its technologies.",
+    "category": "Technology",
+    "author": "Anjitha",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600"
+  },
+  {
+    "id": 5,
+    "title": "A Guide to Better Productivity",
+    "description": "Learn practical ways to manage your time and achieve your goals.",
+    "category": "Lifestyle",
+    "author": "Anjitha",
+    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600"
+  },
+  {
+    "id": 6,
+    "title": "Introduction to JavaScript",
+    "description": "Understand JavaScript fundamentals and how it makes websites interactive.",
+    "category": "Technology",
+    "author": "Anjitha",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600"
+  }
+]

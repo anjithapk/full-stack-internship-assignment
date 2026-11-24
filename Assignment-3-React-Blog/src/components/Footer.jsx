@@ -1,0 +1,11 @@
+
+function Footer() {
+    return (
+        <footer className="footer">
+            <p>© 2026 My Blog. All rights reserved.</p>
+            <p>Created with React ❤️</p>
+        </footer>
+    );
+}
+
+export default Footer;
