@@ -1,0 +1,108 @@
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+main h1 {
+  color: #173b63;
+  margin-bottom: 10px;
+}
+
+main h2 {
+  margin-top: 35px;
+  color: #245b91;
+}
+
+main p {
+  color: #555;
+}
+
+header {
+  background: #173b63;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+header a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.card {
+  background: #eef4fb;
+  border: 1px solid #cbd9e8;
+  padding: 25px;
+  width: 220px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #173b63;
+}
+
+button {
+  background: #245b91;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background: #173b63;
+}
+
+form {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #eef4fb;
+  border-radius: 10px;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+footer {
+  background: #173b63;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
