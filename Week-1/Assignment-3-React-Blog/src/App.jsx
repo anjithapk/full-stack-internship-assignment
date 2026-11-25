@@ -1,10 +1,10 @@
 
 import { useState } from "react";
-import Header from "./components/Header";
-import BlogCard from "./components/BlogCard";
-import SearchBar from "./components/SearchBar";
-import CategoryFilter from "./components/CategoryFilter";
-import Footer from "./components/Footer";
+import Header from "./components/Header.jsx";
+import BlogCard from "./components/BlogCard.jsx";
+import SearchBar from "./components/SearchBar.jsx";
+import CategoryFilter from "./components/CategoryFilter.jsx";
+import Footer from "./components/Footer.jsx";
 import posts from "./posts.json";
 import "./App.css";
 

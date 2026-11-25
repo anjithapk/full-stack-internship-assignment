@@ -1,9 +1,9 @@
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Card from "./components/Card";
-import Button from "./components/Button";
-import Form from "./components/Form";
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+import Card from "./components/Card.jsx";
+import Button from "./components/Button.jsx";
+import Form from "./components/Form.jsx";
 import "./App.css";
 
 function App() {
