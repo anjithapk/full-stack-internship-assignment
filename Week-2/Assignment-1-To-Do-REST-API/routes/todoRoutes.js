@@ -2,6 +2,8 @@
 const express = require("express");
 const router = express.Router();
 
+const protect = require("../config/authMiddleware");
+
 const {
     createTodo,
     getTodos,
@@ -9,16 +11,12 @@ const {
     deleteTodo
 } = require("../controllers/todoController");
 
-// Create a task
+// Protect all routes below this line
+router.use(protect);
+
 router.post("/", createTodo);
-
-// Get all tasks
 router.get("/", getTodos);
-
-// Update a task
 router.put("/:id", updateTodo);
-
-// Delete a task
 router.delete("/:id", deleteTodo);
 
 module.exports = router;
